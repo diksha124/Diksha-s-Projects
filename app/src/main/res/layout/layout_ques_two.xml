@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:padding="@dimen/_12sdp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your selections, Choose more than one."
+        android:textStyle="italic"
+        android:textSize="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_are_the_color_in_the_indian_flag"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textColor="@color/black" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/cbOne"
+            android:checked="false"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/cbTwo"
+            android:checked="false"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/cbThree"
+            android:checked="false"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/cbFour"
+            android:checked="false"/>
+</LinearLayout>
+
+</layout>

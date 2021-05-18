@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/app_gradient"
+        android:layout_height="@dimen/_70sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_guest"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_14sdp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/llHistory"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/history"/>
+
+            <TextView
+                android:id="@+id/historyClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/history"
+                android:textAllCaps="true"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <include layout="@layout/name_layout"
+              android:id="@+id/llStepOne"/>
+
+        <include layout="@layout/layout_ques_one"
+            android:id="@+id/llQuestionOne"/>
+
+        <include layout="@layout/layout_ques_two"
+            android:id="@+id/llQuestionTwo"/>
+
+    </ViewFlipper>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gradient_color"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/_12sdp"
+        android:text="@string/next"/>
+
+</LinearLayout>
+
+</layout>

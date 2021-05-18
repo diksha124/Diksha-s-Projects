@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TriviaApplication (Assignment-Diksha)</string>
+    <string name="application_name">Trivia</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="next">Next</string>
+    <string name="history">History</string>
+    <string name="who_is_the_best_cricketer_in_the_world">*Who is the best cricketer in the world?</string>
+    <string name="what_are_the_color_in_the_indian_flag">*What are the color in the indian flag?</string>
+    <string name="welcome_guest">Welcome to Trivia</string>
+</resources>

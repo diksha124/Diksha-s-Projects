@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="---"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black" />
+
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_marginTop="@dimen/_5sdp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+
+           <TextView
+               android:id="@+id/textName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="---"
+               android:textStyle="bold"
+               android:textSize="@dimen/_14sdp"
+               android:textColor="@color/app_color" />
+
+       </LinearLayout>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/who_is_the_best_cricketer_in_the_world"
+           android:textSize="@dimen/_14sdp"
+           android:layout_marginTop="@dimen/_6sdp"
+           android:textColor="@color/black" />
+
+       <TextView
+           android:id="@+id/answerTV"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:layout_marginTop="@dimen/_2sdp"
+           android:textSize="@dimen/_14sdp"
+           android:textColor="@color/black" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/what_are_the_color_in_the_indian_flag"
+           android:textSize="@dimen/_14sdp"
+           android:layout_marginTop="@dimen/_6sdp"
+           android:textColor="@color/black" />
+
+       <TextView
+           android:id="@+id/answer2TV"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:layout_marginTop="@dimen/_2sdp"
+           android:textSize="@dimen/_14sdp"
+           android:textColor="@color/black" />
+
+
+</LinearLayout>
+
+</layout>

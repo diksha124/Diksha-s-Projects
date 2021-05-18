@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:padding="@dimen/_12sdp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your selection, Please select any one."
+        android:textStyle="italic"
+        android:textSize="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/who_is_the_best_cricketer_in_the_world"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black" />
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sachin Tendulkar"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/radioButtonOne"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Virat Kohli"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/radioButtonTwo"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adam Gilchrist"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/radioButtonThree"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jacques Kallis"
+            android:textSize="@dimen/_12sdp"
+            android:id="@+id/radioButtonFour"
+            android:checked="false"/>
+
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
+
+</layout>
